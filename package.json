@@ -1,0 +1,27 @@
+{
+  "name": "Test",
+  "version": "0.0.1",
+  "author": "Chen",
+  "description": "The first test at marlabs",
+  "keywords":["node.js","javascript"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/english10010/test2017"
+  },
+  "license":"MIT",
+  "engines": {"node": "0.10.x"},
+  "bugs":{"url":"https://github.com/english10010/test2017/bug","email":"english100101992@gmail.com"},
+  "contributors":[{"name":"chen","email":"lisi@example.com"}],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mongodb": "~2.2.24",
+    "express": "~4.15.2",
+    "express-session": "~1.15.1",
+    "connect-mongodb-session": "1.3.0",
+    "body-parser": "1.17.1"
+  }
+}
